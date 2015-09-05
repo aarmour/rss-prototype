@@ -1,0 +1,62 @@
+<small><span class="text-danger">*</span> indicates a required field.</small>
+<form>
+  <div class="form-group">
+    <label for="input-phone">Phone <span class="text-danger">*</span></label>
+    <input type="text" class="form-control" id="input-phone">
+  </div>
+  <div class="form-group">
+    <label for="input-first-name">First name <span class="text-danger">*</span></label>
+    <input type="text" class="form-control" id="input-first-name">
+  </div>
+  <div class="form-group">
+    <label for="input-last-name">Last name <span class="text-danger">*</span></label>
+    <input type="text" class="form-control" id="input-last-name">
+  </div>
+  <div class="form-group">
+    <label for="input-email">Email <span class="text-danger">*</span></label>
+    <input type="email" class="form-control" id="input-email">
+  </div>
+  <hr>
+  <div class="form-group">
+    <label>I am interested in volunteering for the following committee(s) (please select no more than three):</label>
+    <div class="checkbox">
+      <label for="checkbox-committee-finance">
+        <input type="checkbox" name="committee" value="finance" id="checkbox-committee-finance">
+        Finance
+      </label>
+    </div>
+    <div class="checkbox">
+      <label for="checkbox-committee-legal">
+        <input type="checkbox" name="committee" value="legal" id="checkbox-committee-legal">
+        Legal / governance
+      </label>
+    </div>
+    <div class="checkbox">
+      <label for="checkbox-committee-marketing">
+        <input type="checkbox" name="committee" value="marketing" id="checkbox-committee-marketing">
+        Marketing
+      </label>
+    </div>
+    <div class="checkbox">
+      <label for="checkbox-committee-fundraising">
+        <input type="checkbox" name="committee" value="fundraising" id="checkbox-committee-fundraising">
+        Fundraising
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="select-current-school">Current school</label>
+    <select class="form-control" id="select-current-school">
+      <option>School 1</option>
+      <option>School 2</option>
+      <option>School 3</option>
+      <option>School 4</option>
+      <option>School 5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="input-current-school-other">If your current school is not listed above, please provide the name here:</label>
+    <input type="text" class="form-control" id="input-current-school-other">
+  </div>
+  <input type="submit" value="Volunteer" class="btn btn-primary">
+</form>

@@ -5,7 +5,9 @@ This is a rapid prototype for some design ideas for https://renaissancesecondary
 ## Getting started
 
 1. Install [Jekyll](http://jekyllrb.com/)
-2. Start the development server: `bin/run`
+2. Clone the repository: `git clone https://github.com/aarmour/rss-prototype.git`
+3. `cd rss-prototype`
+4. Start the development server: `bin/run`
 
 ## Deploying to Surge
 

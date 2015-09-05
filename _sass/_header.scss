@@ -27,11 +27,17 @@
 
   .navbar-nav > li > a {
     padding-top: 3px;
-    padding-bottom: 3px;
+    padding-bottom: 0;
     color: $rss-white;
 
     &:hover {
       color: darken($rss-white, 10%);
     }
+  }
+
+  &::before,
+  &::after {
+    content: " ";
+    display: table;
   }
 }

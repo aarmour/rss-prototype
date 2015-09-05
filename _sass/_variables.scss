@@ -9,7 +9,8 @@ $rss-brand-secondary: rgb(255, 181, 84) !default;
 // Header
 // -----------------------------------
 
-$rss-header-height: 78px !default;
+$rss-header-height: 53px !default;
+$rss-header-social-height: 25px !default;
 $rss-header-social-bg: $rss-brand-primary !default;
 
 // Footer
@@ -20,4 +21,4 @@ $rss-footer-bg: $rss-brand-primary !default;
 // Page header
 // -----------------------------------
 
-$rss-page-header-text-margin: 25px 0 !default;
+$rss-page-header-text-margin: 10px !default;

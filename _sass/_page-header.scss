@@ -4,6 +4,16 @@
   background-color: $rss-brand-secondary;
 
   h2 {
-    margin: $rss-page-header-text-margin;
+    margin: $rss-page-header-text-margin 0;
+    font-size: 1.6em;
+
+    @media (min-width: $screen-md-min) {
+      margin: ($rss-page-header-text-margin * 2) 0;
+      font-size: 2em;
+    }
+  }
+
+  @media (min-width: $screen-md-min) {
+    margin-top: $rss-header-height + $rss-header-social-height;
   }
 }

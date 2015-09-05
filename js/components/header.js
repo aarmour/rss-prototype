@@ -17,7 +17,10 @@ Header.prototype.init = function () {
 
   window.addEventListener('scroll', () => {
     let alpha = window.scrollY > HEADER_HEIGHT ? '1' : '0';
+    let boxShadow = window.scrollY > HEADER_HEIGHT ? '1px 0px 4px 0px rgba(0,0,0,0.35)' : 'none';
+
     navEl.style['background-color'] = `rgba(240, 240, 240, ${alpha})`;
+    navEl.style['box-shadow'] = boxShadow;
   });
 };
 

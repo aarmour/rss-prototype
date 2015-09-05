@@ -1,6 +1,6 @@
 import componentHandler from '../componentHandler';
 
-const HEADER_HEIGHT = 50;
+const SCROLL_THRESHOLD = 20;
 
 // CSS classes
 const FADE = 'rss-header--fade';
@@ -16,8 +16,8 @@ Header.prototype.init = function () {
   if (!navEl) return;
 
   window.addEventListener('scroll', () => {
-    let alpha = window.scrollY > HEADER_HEIGHT ? '1' : '0';
-    let boxShadow = window.scrollY > HEADER_HEIGHT ? '1px 0px 4px 0px rgba(0,0,0,0.35)' : 'none';
+    let alpha = window.scrollY > SCROLL_THRESHOLD ? '1' : '0';
+    let boxShadow = window.scrollY > SCROLL_THRESHOLD ? '1px 0px 4px 0px rgba(0,0,0,0.35)' : 'none';
 
     navEl.style['background-color'] = `rgba(240, 240, 240, ${alpha})`;
     navEl.style['box-shadow'] = boxShadow;

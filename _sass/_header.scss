@@ -1,3 +1,17 @@
+.rss-header {
+  .nav > li.active {
+    > a {
+      background-color: transparent;
+      border-bottom: solid 3px;
+
+      &:hover,
+      &:focus {
+        background-color: transparent;
+      }
+    }
+  }
+}
+
 .rss-header--fade {
   .navbar {
     border: 0;

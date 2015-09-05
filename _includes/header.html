@@ -11,11 +11,11 @@
         </a>
       </div>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Founding Board</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Donate</a></li>
-        <li><a href="#">Volunteer</a></li>
+        <li {% if page.title == 'About' %}class="active"{% endif %}><a href="{{ site.baseurl }}/about">About</a></li>
+        <li {% if page.title == 'Founding Board' %}class="active"{% endif %}><a href="/founding-board">Founding Board</a></li>
+        <li {% if page.title == 'FAQ' %}class="active"{% endif %}><a href="/faq">FAQ</a></li>
+        <li {% if page.title == 'Volunteer' %}class="active"{% endif %}><a href="/volunteer">Volunteer</a></li>
+        <li><a href="https://www.coloradogives.org/renaissance">Donate</a></li>
       </ul>
     </div>
   </nav>

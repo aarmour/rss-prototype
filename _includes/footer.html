@@ -1,2 +1,23 @@
-<footer>
+<footer class="rss-footer rss-text--light">
+  <div class="container">
+    <div class="rss-footer__row">
+      <section class="rss-footer__section-left">
+        <nav class="rss-footer__nav-social">
+          <ul class="list-inline">
+            <li><a href="https://facebook.com/{{ site.facebook_username }}"><i class="fa fa-lg fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-lg fa-twitter"></i></a></li>
+            <li><a href="mailto:board@renaissancesecondary.org">{{ site.email }}</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section class="rss-footer__section-right">
+        <a href="#top">Back to top</a>
+      </section>
+    </div>
+    <div class="rss-footer__row rss-footer__row-copyright">
+      <section class="rss-footer__section-span">
+        <small>&copy; {{ site.time | date: '%Y' }} Renaissance Secondary School</small>
+      </section>
+    </div>
+  </div>
 </footer>

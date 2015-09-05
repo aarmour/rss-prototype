@@ -7,5 +7,11 @@
 @import "../lib/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap";
 
 // Internal imports
+@import "bootstrap-theme";
+@import "variables";
+@import "mixins";
+@import "footer";
 @import "header";
 @import "layout";
+@import "section";
+@import "type";

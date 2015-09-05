@@ -1,0 +1,9 @@
+.rss-page-header {
+  margin-top: $rss-header-height;
+  color: $rss-white;
+  background-color: $rss-brand-secondary;
+
+  h2 {
+    margin: $rss-page-header-text-margin;
+  }
+}

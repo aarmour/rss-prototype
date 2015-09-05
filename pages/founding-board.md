@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Founding Board
+heading: Founding board
 permalink: /founding-board/
 ---
 

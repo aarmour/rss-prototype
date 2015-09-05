@@ -7,6 +7,10 @@
 
     {% include header.html %}
 
+    {% if page.heading %}
+    {% include page-header.html %}
+    {% endif %}
+
     {% if page.is_index %}
     {{ content }}
     {% else %}

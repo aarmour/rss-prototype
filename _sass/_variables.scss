@@ -3,13 +3,21 @@
 
 $rss-white: #fff !default;
 
+$rss-brand-primary: $brand-primary !default;
+$rss-brand-secondary: rgb(255, 181, 84) !default;
 
 // Header
 // -----------------------------------
 
-$rss-header-social-bg: $brand-primary !default;
+$rss-header-height: 78px !default;
+$rss-header-social-bg: $rss-brand-primary !default;
 
 // Footer
 // -----------------------------------
 
-$rss-footer-bg: $brand-primary !default;
+$rss-footer-bg: $rss-brand-primary !default;
+
+// Page header
+// -----------------------------------
+
+$rss-page-header-text-margin: 25px 0 !default;

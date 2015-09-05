@@ -1,6 +1,7 @@
 ---
 layout: default
 title: FAQ
+heading: Frequently asked questions
 permalink: /faq/
 ---
 

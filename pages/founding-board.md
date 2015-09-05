@@ -15,7 +15,7 @@ permalink: /founding-board/
 
 <div class="media">
   <div class="media-left media-top">
-    <img class="media-object img-circle" src="{{ site.baseurl }}/img/avatar/shawn-stephens.jpg" alt="Shawn Stephens">
+    <img class="media-object avatar avatar--lg" src="{{ site.baseurl }}/img/avatar/shawn-stephens.jpg" alt="Shawn Stephens">
   </div>
   <div class="media-body">
     <h4 class="media-heading">Shawn Stephens</h4>
@@ -25,7 +25,7 @@ permalink: /founding-board/
 
 <div class="media">
   <div class="media-left media-top">
-    <img class="media-object img-circle" src="{{ site.baseurl }}/img/avatar/ryan-stuart.jpg" alt="Shawn Stephens">
+    <img class="media-object avatar avatar--lg" src="{{ site.baseurl }}/img/avatar/ryan-stuart.jpg" alt="Shawn Stephens">
   </div>
   <div class="media-body">
     <h4 class="media-heading">Ryan Stuart</h4>
@@ -35,7 +35,7 @@ permalink: /founding-board/
 
 <div class="media">
   <div class="media-left media-top">
-    <img class="media-object img-circle" src="{{ site.baseurl }}/img/avatar/amy-stuart.jpg" alt="Shawn Stephens">
+    <img class="media-object avatar avatar--lg" src="{{ site.baseurl }}/img/avatar/amy-stuart.jpg" alt="Shawn Stephens">
   </div>
   <div class="media-body">
     <h4 class="media-heading">Amy Stuart</h4>
@@ -54,7 +54,7 @@ permalink: /founding-board/
 
 <div class="media">
   <div class="media-left media-top">
-    <img class="media-object img-circle" src="{{ site.baseurl }}/img/avatar/michael-sparks.jpg" alt="Shawn Stephens">
+    <img class="media-object avatar avatar--lg" src="{{ site.baseurl }}/img/avatar/michael-sparks.jpg" alt="Shawn Stephens">
   </div>
   <div class="media-body">
     <h4 class="media-heading">Michael Sparks</h4>

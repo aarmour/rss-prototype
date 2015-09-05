@@ -12,3 +12,4 @@ facebook_username: RenaissanceCharterSchool
 
 # Build settings
 markdown: kramdown
+exclude: [js, node_modules]

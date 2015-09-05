@@ -14,6 +14,8 @@ permalink: /founding-board/
   </div>
 </div>
 
+<hr>
+
 <div class="media">
   <div class="media-left media-top">
     <img class="media-object avatar avatar--lg" src="{{ site.baseurl }}/img/avatar/shawn-stephens.jpg" alt="Shawn Stephens">
@@ -23,6 +25,8 @@ permalink: /founding-board/
     Shawn Stephens has worked in the education industry since 2006, with a specific focus in online education.  Shawn is a Subject Matter Expert at Pearson eCollege, where he acts as an internal consultant to development, product, and infrastructure teams to provide analysis, training, design, and integration support and guidance for the company’s eLearning products. Prior to Pearson eCollege, Shawn was a consultant to and for companies such as Fujitsu and Microsoft, where he worked as an accountant, technical writer, developer, and business analyst. Shawn has two children in the Douglas County School system, and he has a vested interest in seeing them and other children continue their learning in an innovative and collaborative environment. Shawn has a Bachelor of Science in Business Administration, with a concentration in Finance, from Colorado State University.
   </div>
 </div>
+
+<hr>
 
 <div class="media">
   <div class="media-left media-top">
@@ -34,6 +38,8 @@ permalink: /founding-board/
   </div>
 </div>
 
+<hr>
+
 <div class="media">
   <div class="media-left media-top">
     <img class="media-object avatar avatar--lg" src="{{ site.baseurl }}/img/avatar/amy-stuart.jpg" alt="Shawn Stephens">
@@ -44,6 +50,8 @@ permalink: /founding-board/
   </div>
 </div>
 
+<hr>
+
 <div class="media">
   <div class="media-left media-top">
   </div>
@@ -52,6 +60,8 @@ permalink: /founding-board/
     Diane Sparks has an extensive background working with children and families. She has a Bachelor of Science, Social Sciences degree with a concentration in psychology and social work from the University of Houston-Downtown.  She has worked with women and families at the Star of Hope Organization in Houston, Texas.  As a Senior Case Manager, she assisted clients with essential support services, supervised caseworkers, taught life skills classes, and worked closely with schools in the Houston Independent School District to meet the education needs of elementary, middle and high school transient students. Diane is currently a stay at home mom, has three students in the Douglas County School District, and is actively involved in her children’s education.  She currently chairs the school-wide art show committee, coaches battle of the books, and volunteers with various committees at the Renaissance Expeditionary Learning Outward Bound School.  Diane is also very active in the community, volunteering at a local food bank as well as teaching elementary age children at her church.
   </div>
 </div>
+
+<hr>
 
 <div class="media">
   <div class="media-left media-top">

@@ -21,7 +21,7 @@
 }
 
 .rss-header__social {
-  height: $rss-header-social-height;
+  height: $rss-header-social-height-sm;
   color: $rss-white;
   background-color: $rss-header-social-bg;
 
@@ -39,5 +39,9 @@
   &::after {
     content: " ";
     display: table;
+  }
+
+  @media (min-width: $screen-md-min) {
+    height: $rss-header-social-height;
   }
 }

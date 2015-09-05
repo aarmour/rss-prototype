@@ -1,4 +1,5 @@
 import componentHandler from './componentHandler';
+import './components/fillViewportHeight';
 import './components/header';
 
 // Export globals

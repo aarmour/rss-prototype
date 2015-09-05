@@ -1,1 +1,3 @@
-export default { header: 'foo' };
+export default function Header() {
+
+}

@@ -7,11 +7,11 @@
 
     {% include header.html %}
 
-    {% if page.title == 'Renaissance Secondary School' %}
+    {% if page.is_index %}
     {{ content }}
     {% else %}
     <div class="rss-layout__container">
-      {{content}}
+      {{ content }}
     </div>
     {% endif %}
 

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+command -v surge >/dev/null 2>&1 || { echo >&2 "Unable to find surge. You may need to install it: npm install -g surge"; exit 1; }
+
+surge --domain renaissancesecondary.surge.sh _site/
+

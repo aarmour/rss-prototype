@@ -19,3 +19,19 @@
     transition: background-color 200ms ease-in-out;
   }
 }
+
+.rss-header__social {
+  height: 25px;
+  color: $rss-white;
+  background-color: $rss-header-social-bg;
+
+  .navbar-nav > li > a {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: $rss-white;
+
+    &:hover {
+      color: darken($rss-white, 10%);
+    }
+  }
+}

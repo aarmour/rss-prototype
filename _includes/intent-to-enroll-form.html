@@ -1,0 +1,127 @@
+<div class="row">
+  <form>
+    <div class="col-md-6">
+      {% include required-field-message.html %}
+      <h4 class="text-danger">Parent Information</h4>
+      <div class="form-group">
+        <label for="input-first-name">First name <span class="text-danger">*</span></label>
+        <input type="text" class="form-control" id="input-first-name">
+      </div>
+      <div class="form-group">
+        <label for="input-last-name">Last name <span class="text-danger">*</span></label>
+        <input type="text" class="form-control" id="input-last-name">
+      </div>
+      <div class="form-group">
+        <label for="input-home-phone">Home phone <span class="text-danger">* (provide at least one phone number)</span></label>
+        <input type="text" class="form-control" id="input-home-phone">
+      </div>
+      <div class="form-group">
+        <label for="input-cell-phone">Cell phone <span class="text-danger">*</span></label>
+        <input type="text" class="form-control" id="input-cell-phone">
+      </div>
+      <div class="form-group">
+        <label for="input-email">Email <span class="text-danger">*</span></label>
+        <input type="email" class="form-control" id="input-email">
+      </div>
+      <div class="form-group">
+        <label for="input-address">Address</label>
+        <input type="text" class="form-control" id="input-address">
+      </div>
+      <div class="form-group">
+        <label for="input-address-apt">Apt, Suite, PO Box</label>
+        <input type="text" class="form-control" id="input-address-apt">
+      </div>
+      <div class="form-group">
+        <label for="input-city">City</label>
+        <input type="text" class="form-control" id="input-city">
+      </div>
+      <div class="form-group">
+        <label for="input-state">State</label>
+        <input type="text" class="form-control" id="input-state">
+      </div>
+      <div class="form-group">
+        <label for="input-zip-code">Zip Code</label>
+        <input type="text" class="form-control" id="input-zip-code">
+      </div>
+      <hr>
+    </div>
+    <div class="col-md-6">
+      <br>
+      <h4 class="text-danger">Student Information</h4>
+      <div class="form-group">
+        <label for="input-student-first-name">First name <span class="text-danger">*</span></label>
+        <input type="text" class="form-control" id="input-student-first-name">
+      </div>
+      <div class="form-group">
+        <label for="input-student-middle-name">Middle name</label>
+        <input type="text" class="form-control" id="input-student-middle-name">
+      </div>
+      <div class="form-group">
+        <label for="input-student-last-name">Last name <span class="text-danger">*</span></label>
+        <input type="text" class="form-control" id="input-student-last-name">
+      </div>
+      <div class="form-group">
+        <label for="select-current-grade">Current grade</label>
+        <select class="form-control" id="select-current-grade">
+          <option></option>
+          <option>Kindergarten</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="select-grade-2017">Grade in 2017</label>
+        <select class="form-control" id="select-grade-2017">
+          <option></option>
+          <option>Kindergarten</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="select-current-school">Current school</label>
+        <select class="form-control" id="select-current-school">
+          <option></option>
+          <option>School 1</option>
+          <option>School 2</option>
+          <option>School 3</option>
+          <option>School 4</option>
+          <option>School 5</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="input-current-school-other">If your current school is not listed above, please provide the name here:</label>
+        <input type="text" class="form-control" id="input-current-school-other">
+      </div>
+      <div class="form-group">
+        <div class="checkbox">
+          <label for="checkbox-terms">
+            <input type="checkbox" name="terms" value="terms" id="checkbox-terms">
+            <strong>I accept the terms and conditions.</strong>
+          </label>
+        </div>
+      </div>
+      <input type="submit" value="Submit" class="btn btn-primary">
+    </div>
+  </form>
+</div>

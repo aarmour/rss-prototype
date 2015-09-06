@@ -1,0 +1,3 @@
+.rss-btn--call-to-action {
+  @include button-variant($rss-btn-call-to-action-color, $rss-btn-call-to-action-bg, $rss-btn-call-to-action-border);
+}

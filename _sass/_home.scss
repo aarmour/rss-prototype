@@ -1,0 +1,21 @@
+.home__section-banner {
+  padding-top: 150px;
+  background: url(../img/landscape-field-yellow-meadow-md.jpg) no-repeat;
+  background-size: cover;
+
+  .row {
+    margin-bottom: 15px;
+  }
+}
+
+.home__call-to-action {
+  .panel {
+    @media (min-width: $screen-sm-min) {
+      height: 300px;
+    }
+
+    @media (min-width: $screen-md-min) {
+      height: 240px;
+    }
+  }
+}

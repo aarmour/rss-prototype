@@ -3,11 +3,13 @@
 ---
 @charset "utf-8";
 
+// Bootstrap overrides
+@import "bootstrap-theme";
+
 // External imports
 @import "../lib/bootstrap-sass-3.3.5/assets/stylesheets/bootstrap";
 
 // Internal imports
-@import "bootstrap-theme";
 @import "variables";
 @import "mixins";
 @import "base";

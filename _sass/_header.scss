@@ -2,7 +2,7 @@
   .nav > li.active {
     > a {
       background-color: transparent;
-      border-bottom: solid 3px;
+      border-bottom: solid 3px #333;
 
       &:hover,
       &:focus {
@@ -18,6 +18,12 @@
     background-color: rgba(240, 240, 240, 0);
     transition: background-color 200ms ease-in-out;
   }
+}
+
+.rss-header__logo {
+  width: 42px;
+  height: 42px;
+  margin-top: 4px;
 }
 
 .rss-header__social {
@@ -43,5 +49,16 @@
 
   @media (min-width: $screen-md-min) {
     height: $rss-header-social-height;
+  }
+}
+
+.rss-header__nav-item--call-to-action {
+  > a {
+    color: darken($rss-brand-secondary, 10%) !important;
+
+    &:hover,
+    &:focus {
+      color: darken($rss-brand-secondary, 15%) !important;
+    }
   }
 }

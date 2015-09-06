@@ -11,7 +11,8 @@
     </div>
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand" href="{{ site.baseurl }}/">
+        <img src="{{ site.baseurl }}/img/rss-logo-small.png" class="rss-header__logo hidden-md hidden-lg" alt="Renaissance secondary school logo">
+        <a class="navbar-brand hidden-sm hidden-xs" href="{{ site.baseurl }}/">
           <!-- <img src="{{ site.baseurl }}/img/rss-logo-small.png"
             alt="Renaissance secondary school logo"
             width="20"
@@ -21,10 +22,11 @@
       </div>
       <ul class="nav navbar-nav navbar-right">
         <li {% if page.title == 'About' %}class="active"{% endif %}><a href="{{ site.baseurl }}/about">About</a></li>
-        <li {% if page.title == 'Founding Board' %}class="active"{% endif %}><a href="/founding-board">Founding Board</a></li>
-        <li {% if page.title == 'FAQ' %}class="active"{% endif %}><a href="/faq">FAQ</a></li>
-        <li {% if page.title == 'Volunteer' %}class="active"{% endif %}><a href="/volunteer">Volunteer</a></li>
+        <li {% if page.title == 'Founding Board' %}class="active"{% endif %}><a href="{{ site.baseurl }}/founding-board">Founding Board</a></li>
+        <li {% if page.title == 'FAQ' %}class="active"{% endif %}><a href="{{ site.baseurl }}/faq">FAQ</a></li>
+        <li {% if page.title == 'Volunteer' %}class="active"{% endif %}><a href="{{ site.baseurl }}/volunteer">Volunteer</a></li>
         <li><a href="https://www.coloradogives.org/renaissance">Donate</a></li>
+        <li class="rss-header__nav-item--call-to-action {% if page.title == 'Intent to Enroll' %} active{% endif %}"><a href="{{ site.baseurl }}/intent-to-enroll">Intent to Enroll</a></li>
       </ul>
     </div>
   </nav>

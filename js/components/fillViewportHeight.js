@@ -8,10 +8,13 @@ export default function FillViewportHeight(element) {
 FillViewportHeight.prototype.init = function () {
   if (!this.element) return;
 
-  setElementHeight(this.element, getViewportHeight());
+  let minHeight = Number.parseInt(this.element.getAttribute('data-min-height'));
+  if (Number.isNaN(minHeight) || minHeight < 0) minHeight = 0;
+
+  setElementHeight(this.element, Math.max(getViewportHeight(), minHeight));
 
   window.addEventListener('resize', () => {
-    setElementHeight(this.element, getViewportHeight());
+    setElementHeight(this.element, Math.max(getViewportHeight(), minHeight));
   });
 };
 

@@ -1,3 +1,4 @@
+import 'babel/polyfill';
 import componentHandler from './componentHandler';
 import './components/fillViewportHeight';
 import './components/header';
@@ -21,6 +22,6 @@ window.addEventListener('load', function() {
     componentHandler.upgradeAllRegistered();
   } else {
     componentHandler.upgradeElement =
-        componentHandler.register = function() {};
+      componentHandler.register = function() {};
   }
 });

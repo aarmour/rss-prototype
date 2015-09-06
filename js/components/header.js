@@ -16,8 +16,8 @@ Header.prototype.init = function () {
   if (!navEl) return;
 
   window.addEventListener('scroll', () => {
-    let alpha = window.scrollY > SCROLL_THRESHOLD ? '1' : '0';
-    let boxShadow = window.scrollY > SCROLL_THRESHOLD ? '1px 0px 4px 0px rgba(0,0,0,0.35)' : 'none';
+    let alpha = (window.scrollY || window.pageYOffset) > SCROLL_THRESHOLD ? '1' : '0';
+    let boxShadow = (window.scrollY || window.pageYOffset) > SCROLL_THRESHOLD ? '1px 0px 4px 0px rgba(0,0,0,0.35)' : 'none';
 
     navEl.style['background-color'] = `rgba(240, 240, 240, ${alpha})`;
     navEl.style['box-shadow'] = boxShadow;

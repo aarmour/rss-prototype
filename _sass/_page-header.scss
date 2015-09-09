@@ -1,5 +1,5 @@
 .rss-page-header {
-  margin-top: $rss-header-height + $rss-header-social-height-sm;
+  margin-top: $rss-header-height;
   color: $rss-white;
   background-color: $rss-brand-secondary;
 
@@ -11,6 +11,10 @@
       margin: ($rss-page-header-text-margin * 2) 0;
       font-size: 2em;
     }
+  }
+
+  @media (min-width: $screen-sm) {
+    margin-top: $rss-header-height + $rss-header-social-height-sm;
   }
 
   @media (min-width: $screen-md-min) {

@@ -1,7 +1,7 @@
 .rss-layout__container {
   @include container-fixed;
 
-  margin-top: $navbar-height + 15;
+  margin-top: 15px;
   margin-bottom: 15px;
 
   @media (min-width: $screen-sm-min) {

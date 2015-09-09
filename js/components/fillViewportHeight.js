@@ -6,17 +6,36 @@ export default function FillViewportHeight(element) {
 }
 
 FillViewportHeight.prototype.init = function () {
-  if (!this.element) return;
+  let element = this.element;
 
-  let minHeight = Number.parseInt(this.element.getAttribute('data-min-height'));
-  if (Number.isNaN(minHeight) || minHeight < 0) minHeight = 0;
+  if (!element) return;
 
-  setElementHeight(this.element, Math.max(getViewportHeight(), minHeight));
+  let minHeight = getIntAttributeValue(this.element, 'data-min-height');
+  let minWidth = getIntAttributeValue(this.element, 'data-min-width');
 
-  window.addEventListener('resize', () => {
-    setElementHeight(this.element, Math.max(getViewportHeight(), minHeight));
-  });
+  function handleResize() {
+    if (getViewportWidth() < minWidth) {
+      element.style.height = '';
+    } else {
+      setElementHeight(element, Math.max(getViewportHeight(), minHeight));
+    }
+  }
+
+  handleResize();
+  window.addEventListener('resize', handleResize);
 };
+
+function getIntAttributeValue(element, attribute) {
+  let value = Number.parseInt(element.getAttribute(attribute));
+
+  if (Number.isNaN(value) || value < 0) value = 0;
+
+  return value;
+}
+
+function getViewportWidth() {
+  return Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+}
 
 function getViewportHeight() {
   return Math.max(document.documentElement.clientHeight, window.innerHeight || 0);

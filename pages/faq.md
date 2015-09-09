@@ -11,7 +11,7 @@ The founding board is committed to creating a new school, serving higher grades,
 
 ### What kind of education will Renaissance Charter School offer?
 
-Renaissance Charter School will provide an innovative educational program that will include elements of project-based learning, problem-based learning, design thinking, service learning, and adventure education. As students engage in authentic learning projects, all students will have the opportunity to design, build, and create as they would in the real world, often taking them outside the confines of the school building and the traditional school schedule. Some have called this type of learning “Deeper Learning.” To learn more visit http://www.hewlett.org/programs/education/deeper-learning or attend our screening of the documentary, Most Likely to Succeed, on September 12th. 
+Renaissance Charter School will provide an innovative educational program that will include elements of project-based learning, problem-based learning, design thinking, service learning, and adventure education. As students engage in authentic learning projects, all students will have the opportunity to design, build, and create as they would in the real world, often taking them outside the confines of the school building and the traditional school schedule. Some have called this type of learning “Deeper Learning.” Learn more from <a href="http://www.hewlett.org/programs/education/deeper-learning">The William and Flora Hewlett Foundation</a> or <a href="https://www.eventbrite.com/e/most-likely-to-succeed-tickets-18087817148?ref=ecount">attend</a> our screening of the documentary <a href="http://mltsfilm.org/">Most Likely to Succeed</a> on September 12th. 
 
 ### Where will Renaissance Charter School be located?
 

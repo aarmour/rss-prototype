@@ -1,5 +1,6 @@
 import 'babel/polyfill';
 import componentHandler from './componentHandler';
+import './components/collapse';
 import './components/fillViewportHeight';
 import './components/header';
 

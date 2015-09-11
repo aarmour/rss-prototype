@@ -17,19 +17,24 @@
           <span class="hidden-xs hidden-sm">{{ site.school_name }}</span>
         </a>
       </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li {% if page.title == 'About' %}class="active"{% endif %}><a href="{{ site.baseurl }}/about">About</a></li>
-          <li {% if page.title == 'Founding Board' %}class="active"{% endif %}><a href="{{ site.baseurl }}/founding-board">Founding Board</a></li>
-          <li {% if page.title == 'FAQ' %}class="active"{% endif %}><a href="{{ site.baseurl }}/faq">FAQ</a></li>
-          <li {% if page.title == 'Volunteer' %}class="active"{% endif %}><a href="{{ site.baseurl }}/volunteer">Volunteer</a></li>
-          <li><a href="https://www.coloradogives.org/renaissance">Donate</a></li>
-          <li class="rss-header__nav-item--call-to-action {% if page.title == 'Intent to Enroll' %} active{% endif %}"><a href="{{ site.baseurl }}/intent-to-enroll">Intent to Enroll</a></li>
-        </ul>
+      <div class="hidden-xs">
+        {% include header-primary-nav.html %}
+      </div>
+      <div class="rss-header__menu-container">
+        <div class="visible-xs rss-bottom-sheet rss-collapse rss-header__menu">
+          {% include header-primary-nav.html %}
+          <button class="btn rss-btn--floating rss-header__btn-close"
+            data-toggle="collapse"
+            data-target=".rss-header__menu">
+            <i class="fa fa-lg fa-close"></i>
+          </button>
+        </div>
       </div>
     </div>
   </nav>
-  <button class="btn rss-btn--call-to-action rss-btn--floating rss-header__btn-menu visible-xs">
-    <i class="fa fa-bars"></i>
+  <button class="btn rss-btn--call-to-action rss-btn--floating rss-header__btn-menu visible-xs"
+    data-toggle="collapse"
+    data-target=".rss-header__menu">
+    <i class="fa fa-lg fa-bars"></i>
   </button>
 </header>

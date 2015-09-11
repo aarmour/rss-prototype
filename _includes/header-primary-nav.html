@@ -1,0 +1,9 @@
+<ul class="nav navbar-nav navbar-right">
+  <li class="visible-xs{% if page.is_index %} active{% endif %}"><a href="/{{ site.baseurl }}">Home</a></li>
+  <li {% if page.title == 'About' %}class="active"{% endif %}><a href="{{ site.baseurl }}/about">About</a></li>
+  <li {% if page.title == 'Founding Board' %}class="active"{% endif %}><a href="{{ site.baseurl }}/founding-board">Founding Board</a></li>
+  <li {% if page.title == 'FAQ' %}class="active"{% endif %}><a href="{{ site.baseurl }}/faq">FAQ</a></li>
+  <li {% if page.title == 'Volunteer' %}class="active"{% endif %}><a href="{{ site.baseurl }}/volunteer">Volunteer</a></li>
+  <li><a href="https://www.coloradogives.org/renaissance">Donate</a></li>
+  <li class="rss-header__nav-item--call-to-action {% if page.title == 'Intent to Enroll' %} active{% endif %}"><a href="{{ site.baseurl }}/intent-to-enroll">Intent to Enroll</a></li>
+</ul>
